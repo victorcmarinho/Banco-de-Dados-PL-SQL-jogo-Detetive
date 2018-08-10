@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="jogo detetive" id="84089D47-9598-728C-4B53-E8345166B729" version="3.5">
+<createdBy>victo</createdBy>
+<createdTime>2018-07-31 23:56:46 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>84089D47-9598-728C-4B53-E8345166B729</designId>
+</OSDM_Design>
