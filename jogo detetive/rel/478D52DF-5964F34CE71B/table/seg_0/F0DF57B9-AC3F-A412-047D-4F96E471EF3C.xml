@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0DF57B9-AC3F-A412-047D-4F96E471EF3C" name="PLAYER_CONTENT">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:39:12 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYER_CONTENT_ID" id="D2C8EF4E-9BE7-66E4-84EB-65EBAAD7E8C8">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:40:16 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAYER_ID" id="E8C77C9B-1919-289C-E80F-57E863269526">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:12 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E376074-15B8-2757-3C54-697837D8F128" referredColumn="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</associations>
+</Column>
+<Column name="GAME_CONTENT_ID" id="CAB5677F-5369-2AD9-CEF3-BAAE2C0FEF74">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:18 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F5CA163-2930-0C34-6C71-DCBACF81791A" referredColumn="32C55F92-CE45-C8E7-97C0-604C772E69FE"/>
+</associations>
+</Column>
+<Column name="PLAYER_ID_OWNER" id="47776983-8A28-D495-8856-1D9744268FE2">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:40:16 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="843CDA5E-2621-916F-19B3-98CC70658D62" name="PLAYER_CONTENT_PK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:40:16 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C8EF4E-9BE7-66E4-84EB-65EBAAD7E8C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5374DE39-A0E5-3542-7FDE-3636D355C29B" name="PLAYER_CONTENT_PLAYER_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:12 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C77C9B-1919-289C-E80F-57E863269526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8CABA85-E094-EBF2-C884-F075010462D8" name="PLAYER_CONTENT_GAME_CONTENT_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:18 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAB5677F-5369-2AD9-CEF3-BAAE2C0FEF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

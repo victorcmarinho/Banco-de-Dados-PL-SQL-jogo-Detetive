@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResponsibleParty class="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" name="ResParty_1" directorySegmentName="seg_0" id="5BB1150D-5B8C-DC83-8ADE-F9283B55C2A8">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:45:48 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+</BIResponsibleParty>

@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="COORDENADA" directorySegmentName="seg_0" id="6F449DE9-1442-9C39-5211-A82686C9FB4A">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:51:44 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<predefined>false</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="top_position" id="7325EB72-0841-760E-FB01-941A703AA322">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:57:40 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="left_popsition" id="96388307-85CE-2F23-BF80-273EDEA446DB">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:57:49 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<type>LOGDT011</type>
+</Attribute>
+</attributes>
+</StructuredType>

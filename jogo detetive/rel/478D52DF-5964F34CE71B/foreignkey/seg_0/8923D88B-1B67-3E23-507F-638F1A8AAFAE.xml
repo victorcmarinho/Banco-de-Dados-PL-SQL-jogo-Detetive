@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8923D88B-1B67-3E23-507F-638F1A8AAFAE" containerWithKeyObject="C9BA5532-9E39-1459-52EC-EFE29B49E219" localFKIndex="DFEF430E-5C6B-B242-B0D9-2C5F5EC6BAA7" name="GAME_ENVIRONMENT_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:21:49 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<referredTableLongName>ENVIRONMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>230BB514-548C-FD36-483D-87906EB113C5</referredTableID>
+<keyObject>EECEFB39-37DA-7D7D-591C-DDB3349568F3</keyObject>
+<referredKeyID>EECEFB39-37DA-7D7D-591C-DDB3349568F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ENVIRONMENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

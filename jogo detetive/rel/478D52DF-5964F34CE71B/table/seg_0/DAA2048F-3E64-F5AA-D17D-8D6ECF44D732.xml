@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAA2048F-3E64-F5AA-D17D-8D6ECF44D732" name="PLAYER">
+<createdBy>victo</createdBy>
+<createdTime>2018-07-31 23:58:35 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYER_ID" id="E4DCD6E2-BB09-6342-990F-0A66334DE0C6">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAYER_NAME" id="0CDD449B-184B-C888-9A82-7C74C804DA79">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="C206D1E0-6951-AE9F-B78E-18AF6AC784B7">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="C318985D-B96D-1D82-1D33-A22F3C4D9BC5">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="A33CF73E-87F9-F2A2-62E6-396A723D47D7">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03C415CE-0276-2F77-C1FB-A469C3D779EB" name="PLAYER_PK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:01:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

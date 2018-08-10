@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9BA5532-9E39-1459-52EC-EFE29B49E219" name="GAME">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:40:43 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GAME_ID" id="2B3A6CDF-2F0B-D06C-2159-BC0465394DA2">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:41:30 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="81CE40DA-63F3-1303-59A7-5A3161EA0ABD">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:41:30 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="C057B26A-DCA3-95E4-F51B-0749CE2307ED">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:41:30 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MASTER_PLAYER_ID" id="D3E66BE1-871F-89CF-C347-FF3F10C389C6">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:47 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92434122-411B-068A-1282-934B64F4CD33" referredColumn="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</associations>
+</Column>
+<Column name="MAP_ID" id="2B5DF260-8AAA-3C33-F9EA-F956298D9BB2">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:19 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="211E0B8D-C456-DBE9-7010-AD7A5F60F19F" referredColumn="4CBBDF3E-8048-0D2E-D21D-0E2365920A9E"/>
+</associations>
+</Column>
+<Column name="TARGET_CAST_ID" id="C3EC0016-FCCC-ABB9-2621-1B7C47FAB1C4">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:34 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09C8D85B-2945-6267-E146-0A3F6C50F594" referredColumn="35929808-1C4E-2DDA-7978-F26BE98271F5"/>
+</associations>
+</Column>
+<Column name="TARGET_ENVIRONMENT_ID" id="94E24581-0700-6779-F392-7FD0DA6289D6">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:21:49 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8923D88B-1B67-3E23-507F-638F1A8AAFAE" referredColumn="46940517-2CC6-E9E9-9B30-9E5770175D98"/>
+</associations>
+</Column>
+<Column name="TARGET_GUN_ID" id="802CBC03-B679-371C-6649-647A0D6B7B34">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:26 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C97C094-E085-CDD3-BA1E-37CE2CCFA9A5" referredColumn="BDA7E39C-454B-4CC4-6A6E-DCB539A44BC1"/>
+</associations>
+</Column>
+<Column name="CURRENT_PLAYER_ID" id="E7F5C9BC-6BB9-B1A4-03EF-C842E99CF503">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:51 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4558FD07-5943-22F9-1F9F-12A39D5D9839" referredColumn="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</associations>
+</Column>
+<Column name="NEXT_PLAYER_ID" id="DC764581-A6EB-41B7-46FD-4A71E31987CD">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:55 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28F36DD3-6A48-6C8A-2FD6-246DD8172FE3" referredColumn="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</associations>
+</Column>
+<Column name="WINNER_PLAYER_ID" id="791E259F-E693-C678-2717-28DEFB80F6CF">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:00 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3615E647-40FD-6AA9-CD9A-12676CA7BC03" referredColumn="E4DCD6E2-BB09-6342-990F-0A66334DE0C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E710AB44-4DBA-5342-F5BD-032C1A9CA232" name="GAME_PK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:43:31 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B3A6CDF-2F0B-D06C-2159-BC0465394DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFEF430E-5C6B-B242-B0D9-2C5F5EC6BAA7" name="GAME_ENVIRONMENT_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:21:49 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94E24581-0700-6779-F392-7FD0DA6289D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0CFD52C-EE54-9D27-3B07-79823FA785C1" name="GAME_MAP_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:19 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5DF260-8AAA-3C33-F9EA-F956298D9BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1592D4F7-037A-8312-B466-D6580BE14230" name="GAME_GUN_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:26 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="802CBC03-B679-371C-6649-647A0D6B7B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F992205-7D15-4592-3A9E-931A2441AFD4" name="GAME_CAST_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:34 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3EC0016-FCCC-ABB9-2621-1B7C47FAB1C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AE1F20F-3506-3604-DFC1-25E3B8835BA2" name="GAME_PLAYER_FK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:47 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3E66BE1-871F-89CF-C347-FF3F10C389C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52D3C9CE-EF30-6B75-FA60-89101A818C00" name="GAME_PLAYER_FKv2">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:51 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F5C9BC-6BB9-B1A4-03EF-C842E99CF503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F6180A6-61D7-E81A-688D-856AF349B326" name="GAME_PLAYER_FKv3">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:22:55 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC764581-A6EB-41B7-46FD-4A71E31987CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7459C544-36F1-E5EC-AF26-CFCB1C187A60" name="GAME_PLAYER_FKv4">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 13:23:00 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="791E259F-E693-C678-2717-28DEFB80F6CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

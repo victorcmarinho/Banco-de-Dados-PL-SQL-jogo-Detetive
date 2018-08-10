@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="205BC4C0-667A-BE8C-9A62-3A83D8F2DB11" mainViewID="894D4118-16B7-1FA4-6B1C-3B8E624962A2">
+<createdBy>victo</createdBy>
+<createdTime>2018-07-31 23:56:46 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

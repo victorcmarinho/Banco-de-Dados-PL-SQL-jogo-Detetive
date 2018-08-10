@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C8850E70-9966-582D-FD4A-A875871934C4">
+<createdBy>victo</createdBy>
+<createdTime>2018-07-31 23:56:47 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

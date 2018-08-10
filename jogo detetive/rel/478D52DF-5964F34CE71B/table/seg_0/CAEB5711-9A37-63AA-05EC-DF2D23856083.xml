@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAEB5711-9A37-63AA-05EC-DF2D23856083" name="MAP">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:12:50 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAP_ID" id="4CBBDF3E-8048-0D2E-D21D-0E2365920A9E">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAP_NAME" id="0DA410BC-9899-28A7-70E0-CC51AB17909F">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAP_IMAGE" id="DCEFAE53-3AB9-F7D4-26E7-0385326E2CFB">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAP_POSITIONS" id="7D44546F-6633-1B24-5C92-BBD6CB17A1B9">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>6F449DE9-1442-9C39-5211-A82686C9FB4A</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="31E8CB66-1A19-B3B6-1094-B1F65472691E">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="2198F201-CC4A-0655-3FCC-FC591020A88C">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<nestedColumns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<nestedColumn name="MAP_POSITIONS.top_position" id="35CA25A8-4F3D-E6B3-BBE8-4B424EBFF964">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:58:16 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>7D44546F-6633-1B24-5C92-BBD6CB17A1B9</parentObject>
+<structAttributeID>7325EB72-0841-760E-FB01-941A703AA322</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+<nestedColumn name="MAP_POSITIONS.left_popsition" id="5B25C24F-C398-6F37-F7FE-8E568D527C7F">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 12:58:16 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<parentObject>7D44546F-6633-1B24-5C92-BBD6CB17A1B9</parentObject>
+<structAttributeID>96388307-85CE-2F23-BF80-273EDEA446DB</structAttributeID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</nestedColumn>
+</nestedColumns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="447415C4-DC7E-BAA7-4B5F-B80CF63E7502" name="MAP_PK">
+<createdBy>victo</createdBy>
+<createdTime>2018-08-01 00:16:32 UTC</createdTime>
+<ownerDesignName>jogo detetive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBBDF3E-8048-0D2E-D21D-0E2365920A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
